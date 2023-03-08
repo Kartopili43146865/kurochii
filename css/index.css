@@ -1,0 +1,483 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mrhr{
+    top: 530px;
+    position: relative;
+}
+
+.mrhr1{
+    top: 2140px;
+    position: absolute;
+}
+
+.featured-content{
+    top: 40px;
+    position: relative;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'glaho';
+    display: flex;
+    background-color: #232323;
+}
+
+.container{
+    background-color: #232323;
+    min-height: calc(147vh);
+    width: 100%;
+    color: white;
+}
+
+.carousel-container{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    position: absolute;
+    display: flex;
+}
+
+.carousel-slide{
+    top: 10px;
+    left: -1px;
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 400px;
+}
+
+.naruto{
+    justify-content: center;
+    top: 270px;
+    left: 0px;
+    position: absolute;
+    font-size: 22px;
+    display: flex;
+    width: 270px;
+    height: 130px;
+    background-color: rgba(0,0,0, 0.5);
+    text-transform: uppercase;
+}
+
+.naruto h1{
+    text-align: center;
+    justify-content: center;
+    top: 281px;
+    position: fixed;
+}
+
+.naruto button{
+    top: 86px;
+    right: 67px;
+    position: absolute;
+    background-color: red;
+    color: white;
+    border: none;
+    width: 140px;
+    height: 25px;
+    font-family: 'mtavruli';
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.naruto button:hover{
+    box-shadow: inset 140px 0 0 0 rgb(227, 0, 0);
+    cursor: pointer;
+}
+
+.onepiece{
+    justify-content: center;
+    top: 270px;
+    left: 0px;
+    position: absolute;
+    font-size: 22px;
+    display: flex;
+    width: 270px;
+    height: 130px;
+    background-color: rgba(0,0,0, 0.5);
+    text-transform: uppercase;
+}
+
+.onepiece h1{
+    text-align: center;
+    justify-content: center;
+    top: 281px;
+    position: fixed;
+}
+
+.onepiece button{
+    top: 86px;
+    right: 67px;
+    position: absolute;
+    background-color: red;
+    color: white;
+    border: none;
+    width: 140px;
+    height: 25px;
+    text-align: center; margin: auto;
+    vertical-align: middle;
+    font-family: 'mtavruli';
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.onepiece button:hover{
+    box-shadow: inset 140px 0 0 0 rgb(227, 0, 0);
+    cursor: pointer;
+}
+
+.demonslayer{
+    justify-content: center;
+    top: 270px;
+    left: 0px;
+    position: absolute;
+    font-size: 13px;
+    display: flex;
+    width: 270px;
+    height: 130px;
+    background-color: rgba(0,0,0, 0.5);
+    text-transform: uppercase;
+}
+
+.demonslayer h1{
+    text-align: center;
+    justify-content: center;
+    top: 295px;
+    font-size: 29px;
+    position: fixed;
+}
+
+.demonslayer button{
+    top: 86px;
+    right: 67px;
+    position: absolute;
+    background-color: red;
+    color: white;
+    border: none;
+    width: 140px;
+    height: 25px;
+    text-align: center; margin: auto;
+    vertical-align: middle;
+    font-family: 'mtavruli';
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.demonslayer button:hover{
+    box-shadow: inset 140px 0 0 0 rgb(227, 0, 0);
+    cursor: pointer;
+}
+
+.swiper-slide{
+    box-shadow: 0, 0;
+}
+
+.swiper .swiper-pagination-bullet-active{
+    background-color: red;
+}
+
+.anime-text{
+    top: 450px;
+    left: 35px;
+    position: absolute;
+    font-family: 'mtavruli';
+}
+
+.anime-list-item-img1{
+    transition: all 0.7s ease-in-out;
+    top: 500px;
+    left: 35px;
+    position: absolute;
+    width: 205px;
+    height: 305px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.anime-list-item-img1:hover{
+    transform: scale(1.1);
+    margin: 0 1px;
+    cursor: pointer;
+}
+
+.anime-list-item-img2{
+    transition: all 0.7s ease-in-out;
+    top: 500px;
+    left: 270px;
+    position: absolute;
+    width: 205px;
+    height: 305px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.anime-list-item-img2:hover{
+    transform: scale(1.1);
+    margin: 0 1px;
+    cursor: pointer;
+}
+
+.anime-list-item-img3{
+    transition: all 0.7s ease-in-out;
+    top: 500px;
+    left: 505px;
+    position: absolute;
+    width: 205px;
+    height: 305px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.anime-list-item-img3:hover{
+    transform: scale(1.1);
+    margin: 0 1px;
+    cursor: pointer;
+}
+
+.anime-list-item-img4{
+    transition: all 0.7s ease-in-out;
+    top: 500px;
+    left: 740px;
+    position: absolute;
+    width: 205px;
+    height: 305px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.anime-list-item-img4:hover{
+    transform: scale(1.1);
+    margin: 0 1px;
+    cursor: pointer;
+}
+
+.anime-list-item-img5{
+    transition: all 0.7s ease-in-out;
+    top: 500px;
+    left: 975px;
+    position: absolute;
+    width: 205px;
+    height: 305px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.anime-list-item-img5:hover{
+    transform: scale(1.1);
+    margin: 0 1px;
+    cursor: pointer;
+}
+
+.anime-list-item-img6{
+    transition: all 0.7s ease-in-out;
+    top: 500px;
+    left: 1210px;
+    position: absolute;
+    width: 205px;
+    height: 305px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.anime-list-item-img6:hover{
+    transform: scale(1.1);
+    margin: 0 1px;
+    cursor: pointer;
+}
+
+.anime-list-item-img7{
+    transition: all 0.7s ease-in-out;
+    top: 500px;
+    left: 1445px;
+    position: absolute;
+    width: 205px;
+    height: 305px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.anime-list-item-img7:hover{
+    transform: scale(1.1);
+    margin: 0 1px;
+    cursor: pointer;
+}
+
+.anime-list-item-img8 {
+    transition: all 0.7s ease-in-out;
+    top: 500px;
+    left: 1680px;
+    position: absolute;
+    width: 205px;
+    height: 305px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.anime-list-item-img8:hover {
+    transform: scale(1.1);
+    margin: 0 1px;
+    cursor: pointer;
+}
+
+.anime-list-item-img9 {
+    transition: all 0.7s ease-in-out;
+    top: 500px;
+    left: 1915px;
+    position: absolute;
+    width: 205px;
+    height: 305px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.anime-list-item-img9:hover {
+    transform: scale(1.1);
+    margin: 0 1px;
+    cursor: pointer;
+}
+
+.anime-list-item-img10 {
+    transition: all 0.7s ease-in-out;
+    top: 500px;
+    left: 2150px;
+    position: absolute;
+    width: 205px;
+    height: 305px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.anime-list-item-img10:hover {
+    transform: scale(1.1);
+    margin: 0 1px;
+    cursor: pointer;
+}
+
+.anime-list-item-img11 {
+    transition: all 0.7s ease-in-out;
+    top: 500px;
+    left: 2385px;
+    position: absolute;
+    width: 205px;
+    height: 305px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.anime-list-item-img11:hover {
+    transform: scale(1.1);
+    margin: 0 1px;
+    cursor: pointer;
+}
+
+.anime-list-item-img12 {
+    transition: all 0.7s ease-in-out;
+    top: 500px;
+    left: 2620px;
+    position: absolute;
+    width: 205px;
+    height: 305px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.anime-list-item-img12:hover {
+    transform: scale(1.1);
+    margin: 0 1px;
+    cursor: pointer;
+}
+
+.anime-list-item-img13 {
+    transition: all 0.7s ease-in-out;
+    top: 500px;
+    left: 2855px;
+    position: absolute;
+    width: 205px;
+    height: 305px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.anime-list-item-img13:hover {
+    transform: scale(1.1);
+    margin: 0 1px;
+    cursor: pointer;
+}
+
+.next-text{
+    top: 900px;
+    left: 35px;
+    position: absolute;
+    font-family: 'mtavruli';
+}
+
+.next-list-item-img1 {
+    transition: all 0.2s ease-in-out;
+    top: 960px;
+    left: 35px;
+    position: absolute;
+    width: 320px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.next-list-item-img1:hover {
+    transform: scale(1.05);
+    margin: 0 1px;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+
+.next-text2{
+    top: 900px;
+    left: 35px;
+    position: absolute;
+    font-family: 'mtavruli';
+}
+
+.next-list-item-img2 {
+    transition: all 0.2s ease-in-out;
+    top: 960px;
+    left: 400px;
+    position: absolute;
+    width: 320px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.next-list-item-img2:hover {
+    transform: scale(1.05);
+    margin: 0 1px;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+/* Fonts */
+
+@font-face {
+    font-family: 'anime';
+    src: url(/fonts/Anime\ Inept.otf);
+}
+
+@font-face {
+    font-family: 'mtavruli';
+    src: url(/fonts/bpg_nino_mtavruli_bold.ttf);
+}
+
+@font-face {
+    font-family: 'glaho';
+    src: url(/fonts/bpg_glaho_sylfaen.ttf);
+}
+
+@font-face {
+    font-family: 'goldlea';
+    src: url(/fonts/GoldleafBoldPersonalUseBold-eZ4dO.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');

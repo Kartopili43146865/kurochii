@@ -1,0 +1,58 @@
+#action{
+    position: sticky;
+    top: 100px;
+    right: 0px;
+    z-index: 20;
+    display: block;
+}
+
+#profmenu{
+    position: sticky;
+    top: 60px;
+    right: 0px;
+    position: absolute;
+    top: 7px;
+    right: -215px;
+    width: 240px;
+    height: 170px;
+    background-color: rgba(0,0,0, 0.9);
+    box-shadow: #232323;
+    display: none;
+    z-index: 10;
+}
+
+#profmenu.open{
+    transition: 0.3s;
+    display: block;
+}
+
+ul li {
+    list-style: none;
+    padding: 9px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul li a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    font-family: 'sanet';
+}
+
+ul li a:hover{
+    color: red;
+    cursor: pointer;
+}
+
+@font-face {
+    font-family: 'mtavruli';
+    src: url(/fonts/bpg_nino_mtavruli_bold.ttf);
+}
+
+@font-face {
+    font-family: 'sanet';
+    src: url(/fonts/alk-sanet.ttf);
+}

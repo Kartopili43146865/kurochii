@@ -1,0 +1,152 @@
+.container {
+  position: relative;
+  width: 1400px;
+  border-radius: 0px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px,1fr));
+  grid-template-rows: repeat(auto-fit, 300px);
+  gap: 15px;
+  margin-top: 200px;
+  margin-left: 15%;
+  transform: translateX(-2%);
+  min-height: calc(0vh);
+}
+  
+.flip-card {
+  background-color: transparent;
+  width: 205px;
+  height: 290px;
+  perspective: 1000px;
+  border-radius: 5px;
+}
+  
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.4s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.795);
+  border-radius: 5px;
+}
+  
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+  
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 15px;
+}
+  
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+  border-radius: 15px;
+  background: 100%;
+}
+
+.flip-card-front img {
+  width: 100%;
+  height: 100%      ;
+  border-radius: 15px;
+}
+  
+.flip-card-back {
+  background-color: var(--black);
+  color: white;
+  border-radius: 15px;
+  transform: rotateY(180deg);
+}
+
+h2{
+  margin-top: 10px;
+  margin-left: 55px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+hr{
+  width: 5.4cm;
+  height: 1px;
+  background-color: rgb(0, 0, 0);
+  margin-top: 5px;
+}
+ 
+p {
+  margin-left: 10px;
+  font-size: 15px;
+  margin-top: 5px;
+}
+  
+h3 {
+  margin-top: 5px;
+  margin-left: 30px;
+}
+
+.div {
+  width: 500px;
+  height: 100px;
+  margin-top: 0vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -265px;
+}
+.div-2 {
+  display: flex;
+}
+.div a{
+  width: 35px;
+  height: 30px;
+  border: 1px solid rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: none;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.4s;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.div a:hover {
+  background-color: rgb(227, 0, 0);
+  color: white;
+}
+.div .back{
+  border-left: 1px solid rgb(255, 255, 255);
+}
+.hidden {
+  display: none;
+}
+.styled {
+  background-color: rgb(227, 0, 0);
+  color: white!important;
+}
+
+.xazi{
+  position: relative;
+  right: 5px;
+  width: 37cm;
+}
+
+.xazi1{
+  margin-top: -327px;
+  position: relative;
+  right: 240px;
+  width: 37cm;
+}
+
+.xazi2{
+  margin-top: -640px;
+  position: relative;
+  right: 475px;
+  width: 37cm;
+}
+

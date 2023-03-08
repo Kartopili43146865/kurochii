@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hr1{
+    top: 400px;
+    position: relative;
+}
+
+body {
+    background-color: rgb(46, 46, 46);
+}
+
+.toptitle {
+    top: 365px;
+    left: 2px;
+    position: relative;
+    color: white;
+    font-size: 25px;
+    width: 315px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* #tstpic {
+   width: 200px;
+   height: 300px;
+   border-radius: 10%;
+   transform: translateY(10px);
+} */
+
+.manga-list-item-img1 {
+    transition: all 1s ease-in-out;
+    top: 80px;
+    left: 35px;
+    position: absolute;
+    width: 205px;
+    height: 268px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.manga-list-item-img1:hover {
+    transform: scale(1.1);
+    margin: 0 1px;
+    cursor: pointer;
+}
+
+/* Fonts */
+
+@font-face {
+    font-family: 'anime';
+    src: url(/fonts/Anime\ Inept.otf);
+}
+
+@font-face {
+    font-family: 'mtavruli';
+    src: url(/fonts/bpg_nino_mtavruli_bold.ttf);
+}
+
+@font-face {
+    font-family: 'glaho';
+    src: url(/fonts/bpg_glaho_sylfaen.ttf);
+}
+
+@font-face {
+    font-family: 'goldlea';
+    src: url(/fonts/GoldleafBoldPersonalUseBold-eZ4dO.ttf);
+}
+@font-face {
+    font-family: 'NinjaNaruto';
+    src: url(/fonts/NinjaNaruto-YOn4.ttf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');

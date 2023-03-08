@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'glaho';
+    display: flex;
+    background-color: #232323;
+}
+
+.container{
+    background-color: #232323;
+    min-height: calc(147vh - 50px);
+    width: 100%;
+    color: white;
+}
+
+/* Fonts */
+
+@font-face {
+    font-family: 'mtavruli';
+    src: url(/fonts/bpg_nino_mtavruli_bold.ttf);
+}
+
+@font-face {
+    font-family: 'glaho';
+    src: url(/fonts/bpg_glaho_sylfaen.ttf);
+}
+
+@font-face {
+    font-family: 'goldlea';
+    src: url(/fonts/GoldleafBoldPersonalUseBold-eZ4dO.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
